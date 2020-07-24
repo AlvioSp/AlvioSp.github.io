@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  /* Header */
+  .header {
+    padding: 1px;
+    text-align: center;
+    background: #add8e6;
+    font-weight: bold;
+  }
+
+  h1 {
+    line-height: normal !important;
+  }
+
+  /* Style the top navigation bar */
+  .navbar {  
+    background-color: #2f4f4f;
+    justify-content: initial !important;
+    padding: initial !important;
+  }
+
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-right: 2px solid black;
+  }
+
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #376868;
+  }
+
+   /* Column container */
+   .row {   
+    height: 400px;
+  }
+
+  /* column1/left column */
+  .column1 {   
+    background-color: #aaaaaa;
+    padding: 20px;
+  }
+
+  /* column2 column */
+  .column2 {  
+    background-color: #bbb;
+    padding: 20px;
+  }
+
+  /* column3 column */
+  .column3 {   
+    background-color: #ccc;
+    padding: 20px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #2f4f4f;
+    color: white;
+    font-weight: bold;
+  }
