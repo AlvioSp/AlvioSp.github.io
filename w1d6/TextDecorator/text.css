@@ -1,0 +1,56 @@
+body {
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 12pt;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#header {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 200%;
+	font-weight: normal;
+	font-style: italic;
+	font-family: "Impact", fantasy;
+}
+
+h2 {
+	margin-top: -18px;
+	margin-left: 10px;
+	background-color: white;
+	width: fit-content;
+    text-align: center;
+}
+
+legend {
+	font-family: "Impact", fantasy;
+	font-size: 120%;
+}
+
+.default {
+
+	font-family: monospace;
+	font-size: 12pt;
+	max-height: 100px;
+	max-width: 96%;
+    color: black;
+	text-decoration-line: none;  
+}
+
+.Content{
+	height: 150px;	
+	margin-top: 30px;
+	border: 1px solid black;
+	padding-left: 10px;
+	width: 50%;
+	background-color: white;
+}
+
+.textDecorator{
+	font-Size: 24pt;
+    color: green;
+	text-decoration-line: underline;  
+}
